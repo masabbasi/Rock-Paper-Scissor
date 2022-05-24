@@ -90,8 +90,11 @@ font-family: 'Roboto', sans-serif;
     height: 30%;
     background-color: #13505B;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+    color:rgb(141, 137, 137);
+    font-size: large;
 }
 
 @media (max-width:500px)
